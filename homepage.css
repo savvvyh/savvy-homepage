@@ -1,0 +1,35 @@
+p {
+    font-size: 20px;
+    color:cadetblue;
+    background-color:rgb(232, 106, 106);
+    padding:10px;
+    margin:30px;
+}
+body {
+    background-color: pink;
+    font-family:sans-serif;
+}
+
+.special {
+    border: 10px inset rgb(194, 147, 244);
+    padding:30px;
+    background-color: darkred;
+    text-align:center;
+}
+
+h1 {
+    font-size:50px;
+    font-weight:normal;
+    font-style:oblique;
+    
+}
+
+.highlight {
+    border: 5px dashed purple;
+    padding: 10px;
+
+}
+
+img {
+    max-width:100%;
+}
