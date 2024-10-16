@@ -2,6 +2,7 @@ body {
     background:lightyellow;
     transition: 
     background-color 1s, font-size 1s;
+    font-family: cursive;
 }
 img {
     max-width:100%;
