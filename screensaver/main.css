@@ -1,0 +1,99 @@
+* {
+    box-sizing:border-box;
+}
+
+img {
+    max-width:100%;
+}
+
+.container {
+    background:rgb(0, 0, 0);
+    height: 100vh;
+    display:flex;
+    align-items:center;
+    justify-content:space-evenly;
+    position:relative;
+    overflow:hidden;
+    animation: pulse 60s infinite ease-in-out;
+}
+
+@keyframes pulse {
+    0% {
+        background:rgb(0, 0, 0);
+        filter:blur(3px);
+        
+    }
+    100% {
+        background:rgb(4, 0, 255);
+        filter:blur(40px);
+        transform:scale(3);
+    }
+}
+
+
+
+.square-1 {
+    background:rgb(4, 0, 255);
+    width:15vw;
+    height:15vw;
+    animation: move 4s infinite ease-in-out;
+}
+
+@keyframes move {
+    0% {
+        translate:0px;
+        transform:rotate(0deg);
+        
+        
+    }
+
+    100% {
+        translate:100vw;
+        transform:rotate(180deg);
+        background:rgb(132, 189, 238);
+        
+    }
+
+}
+
+
+.square-2 {
+    background:rgb(32, 0, 175);
+    width:15vw;
+    height:15vw;
+    animation: twirl 4s 2s infinite ease-in-out;
+}
+
+@keyframes twirl {
+    0% {
+        transform:rotate;
+    }
+
+    100% {
+        transform:rotate(360deg);
+        background:rgb(135, 135, 248);
+        transform:scale3d(4);
+        
+    }
+
+}.square-3 {
+    background:rgb(2, 1, 81);
+    width:15vw;
+    height:15vw;
+    animation: spin 4s 4s infinite linear;
+}
+
+@keyframes spin {
+    0% {
+        transform:rotate;
+        translate:0vw;
+    }
+
+    100% {
+        transform:rotate(360deg);
+        translate:-100vw;
+        background:rgb(54, 61, 148);
+    }
+
+}
+

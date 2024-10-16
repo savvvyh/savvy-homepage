@@ -1,0 +1,20 @@
+{
+	"folders": [
+		{
+			"path": "../../first-website-savvy/homepage"
+		},
+		{
+			"path": "../../first-website-savvy/boilerplate"
+		},
+		{
+			"path": "../../first-website-savvy/paths-specificity"
+		},
+		{
+			"path": "../flexbox"
+		},
+		{
+			"path": "."
+		}
+	],
+	"settings": {}
+}

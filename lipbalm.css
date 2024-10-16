@@ -1,0 +1,58 @@
+p {
+    font-size: 20px;
+    color:rgb(91, 0, 38);
+    padding:10px;
+    margin:30px;
+}
+body {
+    background-color: pink;
+    font-family:sans-serif;
+}
+
+.special {
+    border: 10px inset rgb(194, 147, 244);
+    padding:30px;
+    background-color: darkred;
+    text-align:center;
+}
+
+h1 {
+    font-size:50px;
+    font-family:cursive;
+    font-weight:normal;
+    font-style:oblique;
+    color:rgb(255, 241, 250);
+    text-align:center;
+    background-color: mediumvioletred;
+    
+}
+
+
+
+.highlight {
+    border: 5px dashed yellow;
+    padding: 10px;
+
+}
+
+img {
+    max-width:100%;
+}
+
+ul{
+    font: size 50px;
+    font-weight:normal;
+    font-style:oblique;
+    color:mediumvioletred
+    
+}
+
+h2{ 
+    font-weight:normal;
+    font: size 50px;
+    font-style:oblique;
+    color:pink;
+    text-align:center;
+    background-color: mediumvioletred; 
+}
+

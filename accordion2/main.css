@@ -1,0 +1,455 @@
+* {
+    box-sizing:border-box;
+}
+
+img {
+    max-width:100%;
+}
+
+body {
+    background:rgb(255, 35, 35);
+    transition: 
+    background-color 1s, font-size 5s;
+}
+
+div.hidden {
+    padding: 20px;
+    text-align:center;
+    font-family: "Lucida Console", monospace;
+    color:white;
+  }
+  
+  @media screen and (max-width: 1000px) {
+    div.hidden {
+      display: none;
+    }
+  }
+
+  
+.main-container {
+    height:100vh;
+    padding:10px;
+    display:flex;
+    flex-direction:column;
+    gap:10px;
+}
+
+
+
+.top {
+height:20%;
+width:100%;
+display:flex;
+gap:10px;
+}
+
+.top-item1 {
+    background:rgb(71, 12, 159);
+    width:100%;
+    display:flex;
+    text-align: center;
+    align-items:center;
+    justify-content:center;
+    font-family: "Lucida Console", monospace;
+    color:white;
+    transition: background 1s;
+}
+
+.top-item2 {
+    background:rgb(71, 12, 159);
+    width:100%;
+    display:flex;
+    text-align: center;
+    align-items:center;
+    justify-content:center;
+    font-family: "Lucida Console", monospace;
+    color:white;
+    transition: background 1s;
+}
+
+.top-item3 {
+    background:rgb(71, 12, 159);
+    width:100%;
+    display:flex;
+    text-align: center;
+    align-items:center;
+    justify-content:center;
+    font-family: "Lucida Console", monospace;
+    color:white;
+    transition: background 1s;
+}
+
+.top-item4 {
+    background:rgb(71, 12, 159);
+    width:100%;
+    display:flex;
+    text-align: center;
+    align-items:center;
+    justify-content:center;
+    font-family: "Lucida Console", monospace;
+    color:white;
+    transition: background 1s;
+}
+
+
+
+.bottom {
+height:20%;
+width:100%;
+display:flex;
+gap:10px;
+}
+
+.bottom-item1, .bottom-item2, .bottom-item3, .bottom-item4 {
+    background:rgb(71, 12, 159);
+    width:100%;
+    display:flex;
+    text-align: center;
+    align-items:center;
+    justify-content:center;
+    font-family: "Lucida Console", monospace;
+    color:white; 
+    transition: background 1s;
+    
+}
+
+.bottom-item1:hover {
+    background-color:black;
+   }
+   .bottom-item2:hover {
+    background-color:white;
+   }
+   .bottom-item3:hover {
+    background-color:black;
+   }
+   .bottom-item4:hover {
+    background-color:white;
+   }
+
+.left {
+    height:20%;
+    width:100%;
+    display:flex;
+    gap:10px;
+}
+
+.left-item1 {
+    background:rgb(71, 12, 159);
+    width:50%;
+    text-align: center;
+    display:flex;
+    color:white;
+    align-items:center;
+    justify-content:center;
+    font-family: "Lucida Console", monospace;
+    transition: background 1s;
+    
+}
+
+.left-item2 {
+    background:rgb(71, 12, 159);
+    width:50%;
+    text-align: center;
+    display:flex;
+    color:white;
+    align-items:center;
+    justify-content:center;
+    font-family: "Lucida Console", monospace;
+    transition: background 1s;
+    
+}
+
+.left-item3 {
+    background:rgb(71, 12, 159);
+    width:50%;
+    text-align: center;
+    display:flex;
+    color:white;
+    align-items:center;
+    justify-content:center;
+    font-family: "Lucida Console", monospace;
+    transition: background 1s;
+    
+}
+
+.left-item4 {
+    background:rgb(71, 12, 159);
+    width:50%;
+    text-align: center;
+    display:flex;
+    color:white;
+    align-items:center;
+    justify-content:center;
+    font-family: "Lucida Console", monospace;
+    transition: background 1s;
+    
+}
+
+.left-item1:hover {
+    background-color:black;
+   }
+   .left-item2:hover {
+    background-color:white;
+   }
+   .left-item3:hover {
+    background-color:black;
+   }
+   .left-item4:hover {
+    background-color:white;
+   }
+
+.top-item1:hover {
+    background-color:white;
+   }
+   .top-item2:hover {
+    background-color:black;
+   }
+   .top-item3:hover {
+    background-color:white;
+   }
+   .top-item4:hover {
+    background-color:black;
+   }
+
+
+.right {
+    height:20%;
+    width:100%;
+    display:flex;
+    gap:10px;
+}
+
+.right-item1, .right-item2, .right-item3, .right-item4 {
+    background:rgb(71, 12, 159);
+    width:50%;
+    text-align: center;
+    display:flex;
+    color:white;
+    align-items:center;
+    justify-content:center;
+    font-family: "Lucida Console", monospace;
+    transition: background 1s;
+    
+}
+
+.right-item1:hover {
+    background-color:white;
+   }
+   .right-item2:hover {
+    background-color:black;
+   }
+   .right-item3:hover {
+    background-color:white;
+   }
+   .right-item4:hover {
+    background-color:black;
+   }
+
+   @media screen and (max-width:1200px) {
+    body {
+        background-color:rgb(0, 0, 0);
+    }
+
+    p {
+        background-color:rgb(255, 255, 255);
+    }
+
+    main {
+        flex-wrap:wrap;
+    }
+}
+
+@media screen and (max-width:1000px) {
+    body {
+        background-color:royalblue;
+    }
+
+    p {
+        background-color:indianred;
+    }
+
+    main {
+        flex-wrap:wrap;
+    }
+}
+
+@media screen and (max-width:800px) {
+    body {
+        background-color:rgb(220, 65, 225);
+    }
+
+    p {
+        background-color:rgb(224, 208, 24);
+    }
+
+    main {
+        flex-wrap:wrap;
+    }
+}
+
+@media screen and (max-width:600px) {
+    body {
+        background-color:rgb(73, 0, 110);
+    }
+
+    p {
+        background-color:rgb(0, 157, 255);
+    }
+
+    main {
+        flex-wrap:wrap;
+    }
+}
+
+@media screen and (max-width:400px) {
+    body {
+        background-color:rgb(255, 154, 162);
+    }
+
+    p {
+        background-color:rgb(111, 250, 101);
+    }
+
+    main {
+        flex-wrap:wrap;
+    }
+}
+
+
+    .left {
+        width:100%;
+    }
+
+    .left-item1 {
+        background-color: rgb(47, 0, 255);
+    }
+    .left-item2 {
+        background-color:rgb(0, 255, 76);
+    }
+    .left-item3 {
+        background-color: rgb(254, 254, 0);
+    }
+    .left-item4 {
+        background-color: rgb(255, 0, 0);
+    }
+
+    .top-item1 {
+        background-color: rgb(255, 0, 0);
+       }
+    
+       .top-item2 {
+        background-color: rgb(254, 254, 0);
+       }
+    
+       .top-item3 {
+        background-color: rgb(0, 255, 76);
+       }
+    
+       .top-item4 {
+        background-color: rgb(47, 0, 255);
+       }
+
+
+    .right-item1 {
+        background-color: rgb(255, 0, 0);
+       }
+    
+       .right-item2 {
+        background-color: rgb(254, 254, 0);
+       }
+    
+       .right-item3 {
+        background-color: rgb(0, 255, 76);
+       }
+    
+       .right-item4 {
+        background-color: rgb(47, 0, 255);
+       }
+
+       .bottom-item1 {
+        background-color: rgb(47, 0, 255);
+    }
+    .bottom-item2 {
+        background-color:rgb(0, 255, 76);
+    }
+    .bottom-item3 {
+        background-color: rgb(254, 254, 0);
+    }
+    .bottom-item4 {
+        background-color: rgb(255, 0, 0);
+    }
+
+      
+
+/* phone styles */
+@media screen and (max-width:600px) {
+    body {
+        background:lightgreen;
+        font-size:200%;
+    }
+
+ .left, .right, .top, .bottom {
+    width:100%;
+   }
+
+   .left-item1 {
+    background-color: rgb(255, 0, 0);
+   }
+
+   .left-item2 {
+    background-color: rgb(254, 254, 0);
+   }
+
+   .left-item3 {
+    background-color: rgb(0, 255, 76);
+   }
+
+   .left-item4 {
+    background-color: rgb(47, 0, 255);
+   }
+
+   .top-item1 {
+    background-color: rgb(47, 0, 255);
+}
+.top-item2 {
+    background-color:rgb(0, 255, 76);
+}
+.top-item3 {
+    background-color: rgb(254, 254, 0);
+}
+.top-item4 {
+    background-color: rgb(255, 0, 0);
+}
+
+
+.right-item1 {
+    background-color: rgb(47, 0, 255);
+}
+.right-item2 {
+    background-color:rgb(0, 255, 76);
+}
+.right-item3 {
+    background-color: rgb(254, 254, 0);
+}
+.right-item4 {
+    background-color: rgb(255, 0, 0);
+}
+
+.bottom-item1 {
+    background-color: rgb(255, 0, 0);
+   }
+
+   .bottom-item2 {
+    background-color: rgb(254, 254, 0);
+   }
+
+   .bottom-item3 {
+    background-color: rgb(0, 255, 76);
+   }
+
+   .bottom-item4 {
+    background-color: rgb(47, 0, 255);
+   }
+
+}
+
