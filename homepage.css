@@ -2,7 +2,7 @@ body {
     background:lightyellow;
     transition: 
     background-color 1s, font-size 1s;
-    font-family: cursive;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 }
 img {
     max-width:100%;
