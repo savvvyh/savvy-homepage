@@ -1,5 +1,5 @@
 body {
-    background:lightyellow;
+    background:rgb(239, 195, 255);
     transition: 
     background-color 1s, font-size 1s;
     font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
@@ -10,6 +10,7 @@ img {
 
 h1 {
     font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    background-color: purple;
 }
 
 .container {
@@ -18,6 +19,7 @@ h1 {
 }
 
 header, footer, .left, .right, .center {
+
     border:1px solid;
     padding:20px;
 }
